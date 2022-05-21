@@ -1,4 +1,5 @@
 from os import system
+from time import sleep as s
 
 clear = lambda: system('clear')
 
@@ -12,8 +13,7 @@ five = "5️⃣"
 six = "6️⃣"
 seven = "7️⃣"
 eight = "8️⃣"
-nine= "9️⃣"
-
+nine = "9️⃣"
 
 start = ""
 
@@ -93,6 +93,8 @@ while(menang == "Tidak"):
         if jawaban == "1":
             if not one == "1️⃣":
                 print("Silahkan Masukkan Angka Lain, Angka Ini Telah Digunakan!")
+                s(0.5)
+
             else:
                 one = one.replace("1️⃣", "❌")
                 player_X = player_X.replace("Giliran", "Bukan Giliran")
@@ -100,6 +102,7 @@ while(menang == "Tidak"):
         elif jawaban == "2":
             if not two == "2️⃣":
                 print("Silahkan Masukkan Angka Lain, Angka Ini Telah Digunakan!")
+                s(0.5)
             else:
                 two = two.replace("2️⃣", "❌")
                 player_X = player_X.replace("Giliran", "Bukan Giliran")
@@ -107,6 +110,7 @@ while(menang == "Tidak"):
         elif jawaban == "3":
             if not three == "3️⃣":
                 print("Silahkan Masukkan Angka Lain, Angka Ini Telah Digunakan!")
+                s(0.5)
             else:
                 three = three.replace("3️⃣", "❌")
                 player_X = player_X.replace("Giliran", "Bukan Giliran")
@@ -114,6 +118,7 @@ while(menang == "Tidak"):
         elif jawaban == "4":
             if not four == "4️⃣":
                 print("Silahkan Masukkan Angka Lain, Angka Ini Telah Digunakan!")
+                s(0.5)
             else:
                 four = four.replace("4️⃣", "❌")
                 player_X = player_X.replace("Giliran", "Bukan Giliran")
@@ -121,6 +126,7 @@ while(menang == "Tidak"):
         elif jawaban == "5":
             if not five == "5️⃣":
                 print("Silahkan Masukkan Angka Lain, Angka Ini Telah Digunakan!")
+                s(0.5)
             else:
                 five = five.replace("5️⃣", "❌")
                 player_X = player_X.replace("Giliran", "Bukan Giliran")
@@ -128,6 +134,7 @@ while(menang == "Tidak"):
         elif jawaban == "6":
             if not six == "6️⃣":
                 print("Silahkan Masukkan Angka Lain, Angka Ini Telah Digunakan!")
+                s(0.5)
             else:
                 six = six.replace("6️⃣", "❌")
                 player_X = player_X.replace("Giliran", "Bukan Giliran")
@@ -135,6 +142,7 @@ while(menang == "Tidak"):
         elif jawaban == "7":
             if not seven == "7️⃣":
                 print("Silahkan Masukkan Angka Lain, Angka Ini Telah Digunakan!")
+                s(0.5)
             else:
                 seven = seven.replace("7️⃣", "❌")
                 player_X = player_X.replace("Giliran", "Bukan Giliran")
@@ -142,6 +150,7 @@ while(menang == "Tidak"):
         elif jawaban == "8":
             if not eight == "8️⃣":
                 print("Silahkan Masukkan Angka Lain, Angka Ini Telah Digunakan!")
+                s(0.5)
             else:
                 eight = eight.replace("8️⃣", "❌")
                 player_X = player_X.replace("Giliran", "Bukan Giliran")
@@ -149,13 +158,15 @@ while(menang == "Tidak"):
         elif jawaban == "9":
             if not nine == "9️⃣":
                 print("Silahkan Masukkan Angka Lain, Angka Ini Telah Digunakan!")
+                s(0.5)
             else:
                 nine = nine.replace("9️⃣", "❌")
                 player_X = player_X.replace("Giliran", "Bukan Giliran")
                 player_O = player_O.replace("Bukan Giliran", "Giliran")
         else:
             print("Masukkan Angka Yang Benar! (1-9)")
-            
+            s(0.5)
+
     elif player_O == "Giliran":
         clear()
         print(xxx)
@@ -164,6 +175,7 @@ while(menang == "Tidak"):
         if jawaban == "1":
             if not one == "1️⃣":
                 print("Silahkan Masukkan Angka Lain, Angka Ini Telah Digunakan!")
+                s(0.5)
             else:
                 one = one.replace("1️⃣", "⭕")
                 player_O = player_O.replace("Giliran", "Bukan Giliran")
@@ -171,6 +183,7 @@ while(menang == "Tidak"):
         elif jawaban == "2":
             if not two == "2️⃣":
                 print("Silahkan Masukkan Angka Lain, Angka Ini Telah Digunakan!")
+                s(0.5)
             else:
                 two = two.replace("2️⃣", "⭕")
                 player_O = player_O.replace("Giliran", "Bukan Giliran")
@@ -178,6 +191,7 @@ while(menang == "Tidak"):
         elif jawaban == "3":
             if not three == "3️⃣":
                 print("Silahkan Masukkan Angka Lain, Angka Ini Telah Digunakan!")
+                s(0.5)
             else:
                 three = three.replace("3️⃣", "⭕")
                 player_O = player_O.replace("Giliran", "Bukan Giliran")
@@ -185,6 +199,7 @@ while(menang == "Tidak"):
         elif jawaban == "4":
             if not four == "4️⃣":
                 print("Silahkan Masukkan Angka Lain, Angka Ini Telah Digunakan!")
+                s(0.5)
             else:
                 four = four.replace("4️⃣", "⭕")
                 player_O = player_O.replace("Giliran", "Bukan Giliran")
@@ -192,6 +207,7 @@ while(menang == "Tidak"):
         elif jawaban == "5":
             if not five == "5️⃣":
                 print("Silahkan Masukkan Angka Lain, Angka Ini Telah Digunakan!")
+                s(0.5)
             else:
                 five = five.replace("5️⃣", "⭕")
                 player_O = player_O.replace("Giliran", "Bukan Giliran")
@@ -199,6 +215,7 @@ while(menang == "Tidak"):
         elif jawaban == "6":
             if not six == "6️⃣":
                 print("Silahkan Masukkan Angka Lain, Angka Ini Telah Digunakan!")
+                s(0.5)
             else:
                 six = six.replace("6️⃣", "⭕")
                 player_O = player_O.replace("Giliran", "Bukan Giliran")
@@ -206,6 +223,7 @@ while(menang == "Tidak"):
         elif jawaban == "7":
             if not seven == "7️⃣":
                 print("Silahkan Masukkan Angka Lain, Angka Ini Telah Digunakan!")
+                s(0.5)
             else:
                 seven = seven.replace("7️⃣", "⭕")
                 player_O = player_O.replace("Giliran", "Bukan Giliran")
@@ -213,6 +231,7 @@ while(menang == "Tidak"):
         elif jawaban == "8":
             if not eight == "8️⃣":
                 print("Silahkan Masukkan Angka Lain, Angka Ini Telah Digunakan!")
+                s(0.5)
             else:
                 eight = eight.replace("8️⃣", "⭕")
                 player_O = player_O.replace("Giliran", "Bukan Giliran")
@@ -220,12 +239,15 @@ while(menang == "Tidak"):
         elif jawaban == "9":
             if not nine == "9️⃣":
                 print("Silahkan Masukkan Angka Lain, Angka Ini Telah Digunakan!")
+                s(0.5)
             else:
                 nine = nine.replace("9️⃣", "⭕")
                 player_O = player_O.replace("Giliran", "Bukan Giliran")
                 player_X = player_X.replace("Bukan Giliran", "Giliran")
         else:
             print("Masukkan Angka Yang Benar! (1-9)")
+            s(0.5)
+
     else:
         None
     xxx = f"\nTicTacToe\n{one}{two}{three}\n{four}{five}{six}\n{seven}{eight}{nine}\n"       
@@ -281,16 +303,30 @@ while(menang == "Tidak"):
         player_O = player_O.replace("Bukan Giliran", "Menang")
     else:
         None
+
+    if not ((one == "1️⃣" or two == "2️⃣" or three == "3️⃣" or four == "4️⃣" or five == "5️⃣" or six == "6️⃣" or seven == "7️⃣" or eight == "8️⃣" or nine == "9️⃣" ) and not menang == "Menang"):
+      seri = True
+    else:
+      seri = False
+
     xxx = f"\nTicTacToe\n{one}{two}{three}\n{four}{five}{six}\n{seven}{eight}{nine}\n"  
+
     if menang == "Menang":
         clear()
         print(xxx)
         print(f"Nama P1 : {nama_player1}\nNama P2 : {nama_player2}\n")
         if player_X == "Menang":
-            print(f"\nSelamat {nama_player2} Kamu Menang!")
-        if player_O == "Menang":
             print(f"\nSelamat {nama_player1} Kamu Menang!")
+        if player_O == "Menang":
+            print(f"\nSelamat {nama_player2} Kamu Menang!")
         break
+
+    if seri:
+      clear()
+      print(xxx)
+      print(f"Nama P1 : {nama_player1}\nNama P2 : {nama_player2}\n")
+      print("Seri!")
+      break
 
 print("Terima Kasih Bermain TicTacToe Python Milik Saya :>")
 print("Jika Ingin Main Lagi, Silahkan Jalankan Script Ini Lagi ")
